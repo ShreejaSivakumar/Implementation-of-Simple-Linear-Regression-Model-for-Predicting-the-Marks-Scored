@@ -1,6 +1,5 @@
 # Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
-
 # DATE : 21/04/26
 
 # NAME : SHREEJA R S
