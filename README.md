@@ -15,9 +15,11 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Algorithm
 1. Get the independent variabble X ( hours studied ) and  dependent variable Y ( marks scored ) .
-2. Import Linear Regression from sklearn.linear_model  and Fit the model using model.fit(X,Y) .
-3. Give new input value for testing (prediction) and use model.predict() to calculate the predicted Y .
-4. Plot the actual data using scatter plot and label the data .
+2. Import Linear Regression from sklearn.linear_model 
+3. Fit the model using model.fit(X,Y) .
+4. Find slope and intercept using model.coef_ and model.intercept_
+5. Give new input value for testing (prediction) and use model.predict() to calculate the predicted Y .
+6. Plot the actual data using scatter plot and label axes of the data using plt.legend() .
 
 ## Program:
 ```
